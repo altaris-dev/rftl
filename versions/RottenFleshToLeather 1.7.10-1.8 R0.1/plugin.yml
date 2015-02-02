@@ -1,0 +1,5 @@
+name: RottenFleshToLeather
+main: me.msanders.rftl.Main
+version: 1
+description: Smelt Rotten Flesh to Leather!
+commands:
