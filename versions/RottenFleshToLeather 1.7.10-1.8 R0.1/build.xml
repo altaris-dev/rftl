@@ -1,6 +1,6 @@
 <project name="RFTL.makejar" default="makejar">
     <target name="makejar" description="Create a jar for the RFTL project">
-        <jar jarfile="$WORKSPACE\builds\$BUILD_NUMBER\RottenFleshToLeather.jar" basedir="." includes="plugin.yml">
+        <jar jarfile= "${WORKSPACE}\builds\${BUILD_NUMBER}\RottenFleshToLeather.jar" basedir="." includes="plugin.yml">
             <fileset dir="bin/">
                 <include name="**/*.class" />
             </fileset>
